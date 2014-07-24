@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>SpriterFileParser</string>
+	<string>TextureReplacement</string>
+	<string>TexturePivotChanges</string>
+	<string>SimplePositionTranslation</string>
+	<string>SynchronMovement</string>
+	<string>ScaleAndPivot</string>
+	<string>ChangePositionScaleAngleAlpha</string>
+	<string>NegativeAnimationSpeed</string>
+	<string>NonLoopingAnimation</string>
+	<string>DisableAnimationLooping</string>
+	<string>LoopANonLoopingAnimation</string>
+	<string>SimpleBoneAnimation</string>
+	<string>SimpleMultiBoneAnimation</string>
+	<string>ComplexBoneAnimation</string>
+	<string>BoneScale</string>
+	<string>ZOrderChanges</string>
+	<string>GreyGuy</string>
+</array>
+</plist>
