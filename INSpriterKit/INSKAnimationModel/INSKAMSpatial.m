@@ -54,7 +54,7 @@
 }
 
 - (NSString *)description {
-    return [NSString stringWithFormat:@"Spatial:'%@' Next:'%@' Type:%lu Name:'%@' Parent:'%@' Time:%.2f Pos:%.0f,%.0f Scale:%.1f,%.1f Alpha:%.2f %@ Angle:%.2f Spin:%lu Pivot:%.1f,%.1f", self.spatialId, self.nextSpatial.spatialId, self.spatialType, self.nodeName, self.parentNodeName, self.time, self.positionX, self.positionY, self.scaleX, self.scaleY, self.alpha, (self.hidden ? @"hidden" : @"opaque"), self.angle, self.spin, self.pivotX, self.pivotY];
+    return [NSString stringWithFormat:@"Spatial:'%@' Next:'%@' Type:%lu Name:'%@' Parent:'%@' Time:%.2f Pos:%.0f,%.0f Scale:%.1f,%.1f Alpha:%.2f %@ Angle:%.2f Spin:%lu Pivot:%.1f,%.1f", self.spatialId, self.nextSpatial.spatialId, (long unsigned)self.spatialType, self.nodeName, self.parentNodeName, self.time, self.positionX, self.positionY, self.scaleX, self.scaleY, self.alpha, (self.hidden ? @"hidden" : @"opaque"), self.angle, (long unsigned)self.spin, self.pivotX, self.pivotY];
 }
 
 - (SKNode *)createNodeForManager:(INSKAnimationManager *)animationManager {
