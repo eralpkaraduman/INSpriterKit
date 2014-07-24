@@ -27,7 +27,7 @@
 @implementation SpriterMainlineKey
 
 - (NSString *)description {
-    return [NSString stringWithFormat:@"MainlineKey %@: %d ms", self.keyId, self.time];
+    return [NSString stringWithFormat:@"MainlineKey %@: %lu ms", self.keyId, (unsigned long)self.time];
 }
 
 

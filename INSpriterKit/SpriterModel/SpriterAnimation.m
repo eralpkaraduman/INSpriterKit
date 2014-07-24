@@ -27,7 +27,7 @@
 @implementation SpriterAnimation
 
 - (NSString *)description {
-    return [NSString stringWithFormat:@"Animation %@: %@ [%ds]", self.animationId, self.name, self.length];
+    return [NSString stringWithFormat:@"Animation %@: %@ [%lus]", self.animationId, self.name, (unsigned long)self.length];
 }
 
 

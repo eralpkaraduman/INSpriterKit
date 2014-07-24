@@ -380,7 +380,6 @@
     newSpatial.hidden = YES;
     spatial.nextSpatial = newSpatial;
     [timeline.spatialsByTime insertObject:newSpatial atIndex:spatialIndex + 1];
-    spatial = newSpatial;
 }
 
 // Updates the parent links.
